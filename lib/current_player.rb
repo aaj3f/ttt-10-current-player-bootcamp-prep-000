@@ -9,12 +9,18 @@ def turn_count(board)
   return turn_number
 end
 
-#current_player
+#current_player with #if/else
+#def current_player(board)
+ # turn_number = turn_count(board)
+  #if turn_number % 2 == 0
+   # return "X"
+#  else
+ #   return "O"
+  #end
+#end
+
+
+#current player with ternary operators
 def current_player(board)
-  turn_number = turn_count(board)
-  if turn_number % 2 == 0
-    return "X"
-  else
-    return "O"
-  end
+  
 end

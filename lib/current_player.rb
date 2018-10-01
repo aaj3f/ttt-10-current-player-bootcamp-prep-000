@@ -22,5 +22,6 @@ end
 
 #current player with ternary operators
 def current_player(board)
+  turn_number = turn_count(board)
   
 end

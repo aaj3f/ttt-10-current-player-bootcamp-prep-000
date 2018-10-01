@@ -1,6 +1,6 @@
 #turn_count
 def turn_count(board)
-  turn_number = 1
+  turn_number = 0
   board.each do |token|
     if (token == "X" || token == "O")
       turn_number += 1
